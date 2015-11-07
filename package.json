@@ -1,0 +1,39 @@
+{
+  "name": "hack-babel-5-runtime-plugin",
+  "version": "0.0.0",
+  "description": "My wicked module",
+  "license": "MIT",
+  "repository": "jamestalmage/hack-babel-5-runtime-plugin",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "babel-core": "^6.1.2",
+    "babel-plugin-runtime": "^1.0.7",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
